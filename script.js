@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 //access to drip
 const client = require('drip-nodejs')(
     {
-        token: "047270b87386e51bcc75d2d0bf3fdb81",
-        accountId: "5054598" 
+        token: "",
+        accountId: "" 
     }
     );
 
